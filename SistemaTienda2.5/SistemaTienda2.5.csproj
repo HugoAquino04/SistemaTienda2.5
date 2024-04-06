@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SistemaTienda2._5</RootNamespace>
     <AssemblyName>SistemaTienda2.5</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -56,6 +56,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -63,6 +64,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -106,6 +108,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -160,6 +163,10 @@
     <Compile Include="Migrations\202404060533119_AdiccionTablaProducto.cs" />
     <Compile Include="Migrations\202404060533119_AdiccionTablaProducto.designer.cs">
       <DependentUpon>202404060533119_AdiccionTablaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404060541296_AdiccionTablaFactura.cs" />
+    <Compile Include="Migrations\202404060541296_AdiccionTablaFactura.designer.cs">
+      <DependentUpon>202404060541296_AdiccionTablaFactura.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categorias.cs" />
@@ -280,6 +287,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060533119_AdiccionTablaProducto.resx">
       <DependentUpon>202404060533119_AdiccionTablaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404060541296_AdiccionTablaFactura.resx">
+      <DependentUpon>202404060541296_AdiccionTablaFactura.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
