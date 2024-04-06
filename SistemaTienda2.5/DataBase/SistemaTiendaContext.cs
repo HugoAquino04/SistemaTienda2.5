@@ -28,6 +28,5 @@ namespace SistemaTienda2._5.DataBase
         public DbSet<UnidadMedida> UnidadMedida { get; set; }
         public DbSet<CondicionPago> CondicionPago { get; set; }
 
-
     }
 }
