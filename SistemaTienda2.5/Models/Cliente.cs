@@ -23,8 +23,10 @@ namespace SistemaTienda2._5.Models
         public string Apellidos { get; set; }
 
         public int GrupoDescuentoId { get; set; }
+        public GrupoDescuento GrupoDescuento { get; set; }  
 
         public int CondicionPagoId { get; set; }
+        public CondicionPago CondicionPago { get; set; }
 
         public bool Estado { get; set; }
 

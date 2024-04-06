@@ -176,6 +176,30 @@
     <Compile Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.designer.cs">
       <DependentUpon>202404060548007_AdiccionTablaFacturaDetalle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.cs" />
+    <Compile Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.designer.cs">
+      <DependentUpon>202404061850518_CorrelacionTablaGDyConDP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404061853304_CorrelacionTablaPedidoCliente.cs" />
+    <Compile Include="Migrations\202404061853304_CorrelacionTablaPedidoCliente.designer.cs">
+      <DependentUpon>202404061853304_CorrelacionTablaPedidoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.cs" />
+    <Compile Include="Migrations\202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.designer.cs">
+      <DependentUpon>202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs" />
+    <Compile Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.designer.cs">
+      <DependentUpon>202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.cs" />
+    <Compile Include="Migrations\202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.designer.cs">
+      <DependentUpon>202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs" />
+    <Compile Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.designer.cs">
+      <DependentUpon>202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categorias.cs" />
     <Compile Include="Models\Cliente.cs" />
@@ -304,6 +328,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.resx">
       <DependentUpon>202404060548007_AdiccionTablaFacturaDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.resx">
+      <DependentUpon>202404061850518_CorrelacionTablaGDyConDP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061853304_CorrelacionTablaPedidoCliente.resx">
+      <DependentUpon>202404061853304_CorrelacionTablaPedidoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.resx">
+      <DependentUpon>202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.resx">
+      <DependentUpon>202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.resx">
+      <DependentUpon>202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.resx">
+      <DependentUpon>202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -14,10 +14,12 @@ namespace SistemaTienda2._5.Models
         public int FacturaDetalleId { get; set; }
 
         public int FacturaId { get; set; }
+        public Factura Factura { get; set; }
 
         public DateTime FechaCreacion { get; set; }
 
         public int ProductoId { get; set; }
+        public Producto Producto { get; set; } 
 
         public decimal Precio { get; set; } = 0.10m;
 

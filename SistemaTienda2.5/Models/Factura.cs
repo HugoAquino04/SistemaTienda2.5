@@ -14,8 +14,10 @@ namespace SistemaTienda2._5.Models
         public int FacturaId { get; set; }
 
         public int ClienteId { get; set; }
+        public Cliente Cliente { get; set; }
 
         public int PedidoId { get; set; }
+        public Pedido Pedido { get; set; }
 
         public DateTime FechaCreacion { get; set; }
 
