@@ -27,7 +27,5 @@ namespace SistemaTienda2._5.Models
 
         public decimal Descuento { get; set; } = 0.10m;
 
-        //Add
-
     }
 }
