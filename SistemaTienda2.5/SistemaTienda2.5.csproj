@@ -172,10 +172,6 @@
     <Compile Include="Migrations\202404060545500_AdiccionTablaFactura1.designer.cs">
       <DependentUpon>202404060545500_AdiccionTablaFactura1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.cs" />
-    <Compile Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.designer.cs">
-      <DependentUpon>202404060548007_AdiccionTablaFacturaDetalle.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.cs" />
     <Compile Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.designer.cs">
       <DependentUpon>202404061850518_CorrelacionTablaGDyConDP.cs</DependentUpon>
@@ -191,10 +187,6 @@
     <Compile Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs" />
     <Compile Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.designer.cs">
       <DependentUpon>202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.cs" />
-    <Compile Include="Migrations\202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.designer.cs">
-      <DependentUpon>202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs" />
     <Compile Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.designer.cs">
@@ -326,9 +318,6 @@
     <EmbeddedResource Include="Migrations\202404060545500_AdiccionTablaFactura1.resx">
       <DependentUpon>202404060545500_AdiccionTablaFactura1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.resx">
-      <DependentUpon>202404060548007_AdiccionTablaFacturaDetalle.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.resx">
       <DependentUpon>202404061850518_CorrelacionTablaGDyConDP.cs</DependentUpon>
     </EmbeddedResource>
@@ -340,9 +329,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.resx">
       <DependentUpon>202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.resx">
-      <DependentUpon>202404061859001_CorrelacionTablaFacturaDetalleConFacturaConProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.resx">
       <DependentUpon>202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs</DependentUpon>

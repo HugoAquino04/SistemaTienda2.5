@@ -32,5 +32,8 @@ namespace SistemaTienda2._5.DataBase
         public DbSet<Producto> Producto { get; set; }
         public DbSet<Factura> Factura { get; set; }
         public DbSet<FacturaDetalle> FacturaDetalle { get;set; }
+
+
+
     }
 }
