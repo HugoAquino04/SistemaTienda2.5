@@ -168,6 +168,14 @@
     <Compile Include="Migrations\202404060541296_AdiccionTablaFactura.designer.cs">
       <DependentUpon>202404060541296_AdiccionTablaFactura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404060545500_AdiccionTablaFactura1.cs" />
+    <Compile Include="Migrations\202404060545500_AdiccionTablaFactura1.designer.cs">
+      <DependentUpon>202404060545500_AdiccionTablaFactura1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.cs" />
+    <Compile Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.designer.cs">
+      <DependentUpon>202404060548007_AdiccionTablaFacturaDetalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categorias.cs" />
     <Compile Include="Models\Cliente.cs" />
@@ -290,6 +298,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060541296_AdiccionTablaFactura.resx">
       <DependentUpon>202404060541296_AdiccionTablaFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404060545500_AdiccionTablaFactura1.resx">
+      <DependentUpon>202404060545500_AdiccionTablaFactura1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404060548007_AdiccionTablaFacturaDetalle.resx">
+      <DependentUpon>202404060548007_AdiccionTablaFacturaDetalle.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
