@@ -14,5 +14,6 @@ namespace SistemaTienda2._5.Models
         public decimal Total { get; set; } = 0.10m;
         public decimal Subtotal { get; set; } = 0.10m;
         public decimal Descuento { get; set; } = 0.10m;
+        //agregar
     }
 }

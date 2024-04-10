@@ -1,0 +1,60 @@
+﻿@model IEnumerable<SistemaTienda2._5.Models.Cliente>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Menu de Clientes</h2>
+<p>
+    @Html.ActionLink("Nuevo", "Crear", null, new { @Class = "btn btn-primary" })
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(Model => Model.CategoriaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.FechaCreacion)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Model => item.CategoriaId)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Codigo)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Descipcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.FechaCreacion)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = item.CategoriaId }, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Detalle", "Detalle", new { id = item.CategoriaId }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = item.CategoriaId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

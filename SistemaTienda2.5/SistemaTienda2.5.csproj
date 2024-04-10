@@ -127,6 +127,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CategoriaController.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DataBase\SistemaTiendaContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -171,26 +173,6 @@
     <Compile Include="Migrations\202404060545500_AdiccionTablaFactura1.cs" />
     <Compile Include="Migrations\202404060545500_AdiccionTablaFactura1.designer.cs">
       <DependentUpon>202404060545500_AdiccionTablaFactura1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.cs" />
-    <Compile Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.designer.cs">
-      <DependentUpon>202404061850518_CorrelacionTablaGDyConDP.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202404061853304_CorrelacionTablaPedidoCliente.cs" />
-    <Compile Include="Migrations\202404061853304_CorrelacionTablaPedidoCliente.designer.cs">
-      <DependentUpon>202404061853304_CorrelacionTablaPedidoCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.cs" />
-    <Compile Include="Migrations\202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.designer.cs">
-      <DependentUpon>202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs" />
-    <Compile Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.designer.cs">
-      <DependentUpon>202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs" />
-    <Compile Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.designer.cs">
-      <DependentUpon>202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categorias.cs" />
@@ -256,6 +238,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Categoria\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -317,21 +301,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060545500_AdiccionTablaFactura1.resx">
       <DependentUpon>202404060545500_AdiccionTablaFactura1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404061850518_CorrelacionTablaGDyConDP.resx">
-      <DependentUpon>202404061850518_CorrelacionTablaGDyConDP.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404061853304_CorrelacionTablaPedidoCliente.resx">
-      <DependentUpon>202404061853304_CorrelacionTablaPedidoCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.resx">
-      <DependentUpon>202404061855343_CorrelacionTablaPedidoDetalleConPedidoConProducto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404061857352_CorrelacionTablaFacturaConClienteConPedido.resx">
-      <DependentUpon>202404061857352_CorrelacionTablaFacturaConClienteConPedido.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.resx">
-      <DependentUpon>202404061900340_CorrelacionTablaProductoConCategoriaConUnidadMedida.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

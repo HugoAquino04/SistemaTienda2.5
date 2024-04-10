@@ -1,0 +1,78 @@
+﻿@model IEnumerable<SistemaTienda2.Models.Cliente>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Menu de Clientes</h2>
+<p>
+    @Html.ActionLink("Nuevo", "Crear", null, new { @Class = "btn btn-primary" })
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(Model => Model.ClienteId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.GrupoDescuento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.CondicionPago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.FechaCreacion)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Model => item.ClienteId)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Codigo)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Nombres)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Apellidos)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.GrupoDescuento)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.CondicionPago)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.FechaCreacion)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = item.ClienteId }, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Detalle", "Detalle", new { id = item.ClienteId }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = item.ClienteId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
